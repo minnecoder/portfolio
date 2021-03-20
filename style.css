@@ -142,15 +142,18 @@ main p {
 .skill-item img {
     display: block;
     margin: auto;
-    height: 48px;
-    width: 48px;
+    height: 64px;
+    width: 64px;
+}
+.skill-item p{
+    margin-top: .25rem;
+    text-align: center;
 }
 #work {
     padding-top: 4rem;
     font-family: "Montserrat", sans-serif;
     background: #393e41;
     color: white;
-    /* height: 100%; */
     padding-bottom: 1rem;
 }
 
@@ -188,6 +191,13 @@ main p {
       width: 100%;
       padding: 0;
     } 
+}
+.text span{
+    font-weight: bold;
+}
+.text :nth-child(3){
+    margin: .5rem 0;
+
 }
 .buttons{
     padding: 1rem 0;
